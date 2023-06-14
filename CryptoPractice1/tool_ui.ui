@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DecryptionTool</class>
+ <widget class="QWidget" name="DecryptionTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Decryption Tool</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="browseButton">
+     <property name="text">
+      <string>Browse CipherText file</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QTextEdit" name="cipherTextEdit"/>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="plainTextEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="keyInput"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="generateButton">
+       <property name="text">
+        <string>Generate Key</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="submitButton">
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLineEdit" name="preimageText"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="imageText"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="addMappingButton">
+     <property name="text">
+      <string>Add Mapping</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="undoButton">
+     <property name="text">
+      <string>Undo</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLineEdit" name="targetWordText"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="wordTipButton">
+     <property name="text">
+      <string>Word Tips</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="improveButton">
+     <property name="text">
+      <string>Improve</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="checkProcessButton">
+     <property name="text">
+      <string>Check</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTextEdit" name="tipText"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/> 
+</ui>
